@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.137014">
+<testcase classname="Online Shopping Applications" name="Home page is displayed after login" time="47.137014">
+<system-out><![CDATA[Given Browser path is configured............................................passed
+When Browser is triggering..................................................passed
+Given User is on home pages.................................................passed
+When User clicked on shop button............................................passed
+Then User clicked on home button............................................passed
+And User added item to basket...............................................passed
+And User clicked on view basket.............................................passed
+And User clicked on proceed to checkout page................................passed
+And User clicked on enter coupon code.......................................passed
+And User enters coupon code.................................................passed
+And User clicked on apply coupon code.......................................passed
+And User checks the rupees reduced to 50 ruppess............................passed
+]]></system-out>
+</testcase>
+</testsuite>

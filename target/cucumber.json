@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24660883200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser path is configured",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.set_the_browser_path()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14028400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is triggering",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.check_if_browser_is_triggered()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Home page is displayed after login",
+        "description": "",
+        "id": "online-shopping-applications;home-page-is-displayed-after-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98911600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on home pages",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_is_on_home_pages()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4008015800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicked on shop button",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_should_clicks_on_the_shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1884753100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicked on home button",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_should_clicks_on_home_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99628900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User added item to basket",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_should_add_to_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3959394000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicked on view basket",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_should_click_on_view_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3834115900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicked on proceed to checkout page",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_should_click_on_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155468100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicked on enter coupon code",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_clicked_on_coupon_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176143000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters coupon code",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_entered_on_coupon_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5100965600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicked on apply coupon code",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_clicked_on_apply_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3144706600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User checks the rupees reduced to 50 ruppess",
+            "match": {
+              "location": "ApplyCouponCodeTo50RupeesOff.user_checks_the_rupees_reduced_50_rupees()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Online Shopping Applications",
+    "description": "",
+    "id": "online-shopping-applications",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature/AddCouponCodeToGet50RupeesOff.feature"
+  }
+]
