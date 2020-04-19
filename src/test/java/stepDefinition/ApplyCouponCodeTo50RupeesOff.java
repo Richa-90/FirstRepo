@@ -114,12 +114,16 @@ public class ApplyCouponCodeTo50RupeesOff  {
         String str1 = ele.get(1).getText();
         
         System.out.println(str1);
-        driver.close();
+       
         
         
         
      
     }
 
+        @And("^User logout from the application$")
+        public void user_logout_from_the_application()throws Throwable{
+        	driver.close();
+        }
 
 }

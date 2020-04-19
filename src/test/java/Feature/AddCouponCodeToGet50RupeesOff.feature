@@ -15,3 +15,4 @@ And User clicked on enter coupon code
 And User enters coupon code
 And User clicked on apply coupon code
 And User checks the rupees reduced to 50 ruppess
+And User logout from the application
